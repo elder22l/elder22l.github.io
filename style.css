@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: monaco, Consolas, "Lucida Console", monospace;
 }
+
+/* top banner and background */
 .banner{
     width: 100%;
     height: 100vh;
@@ -50,4 +52,21 @@
 }
 .navbar ul li:hover::after{
     width: 100%;
+}
+
+/* about me section */
+.aboutMePic img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5%;
+    width:50%;
+    max-width: 30%;
+    height: auto;
+    image-rendering: linear-gradient;
+    border: 5px solid rgb(11, 7, 7);
+    border-radius: auto;
+}
+.aboutMeText{
+    text-align:center;
 }
